@@ -1,0 +1,24 @@
+# --- Dependencias ---
+node_modules/
+package-lock.json
+
+# --- Archivos de Compilación (Build) ---
+out/
+dist/
+
+# --- Empaquetados ---
+# Esto evita que subas el instalador .vsix cada vez que creas una versión
+*.vsix
+
+# --- Archivos de Entorno de Pruebas ---
+.vscode-test/
+
+# --- Archivos del Sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Logs y archivos temporales ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

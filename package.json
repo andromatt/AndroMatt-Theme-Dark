@@ -1,0 +1,42 @@
+{
+  "name": "andromatt-theme-dark",
+  "displayName": "AndroMatt Theme Dark",
+  "description": "Un tema oscuro inspirado en Vira Carbon.",
+  "version": "1.0.0",
+  "publisher": "AndroMatt",
+  "icon": "assets/img/icon.png",
+  "galleryBanner": {
+    "color": "#040404",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "color theme",
+    "andromatt"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/andromatt/AndroMatt-Theme-Dark#readme",
+  "bugs": {
+    "url": "https://github.com/andromatt/AndroMatt-Theme-Dark/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andromatt/AndroMatt-Theme-Dark.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "AndroMatt Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/AndroMatt Theme Dark-color-theme.json"
+      }
+    ]
+  }
+}
